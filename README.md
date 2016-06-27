@@ -48,7 +48,7 @@ $ ls
 
 
 ````
-$ unzip master
+$ unzip master.zip
 ````
 
 This will create a directory called AdminLTE-master:
@@ -110,6 +110,16 @@ Go to the ../views directory, then download the new layout file:
 $ cd ../views
 curl -C - -LOk  https://raw.githubusercontent.com/tomcam/AdminLTE-web2py/master/layout_adminlte.html
 ````
+
+## Change owner and permissions of layout_adminlte.html
+
+The layout_adminlte.html will be property of root, and the permissions of the file will make this file impossible to edit using the Web2Py IDE.
+
+````
+chmod  664 layout_adminlte.html
+chown www-data layout_adminlte.html
+````
+
 
 ## Use the new layout in a web2py project
 
