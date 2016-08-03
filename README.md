@@ -33,6 +33,12 @@ If you don't have Curl yet, get it free from http://curl.haxx.se/download.html.
 $ curl -C - -LOk https://github.com/almasaeed2010/AdminLTE/archive/master.zip
 ````
 
+Or with Wget
+
+````
+$ wget https://github.com/almasaeed2010/AdminLTE/archive/master.zip
+````
+
 #### Warning
 AdminLTE carries a ton of demo code. It's a 6MB download. 
 
