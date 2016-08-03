@@ -114,7 +114,7 @@ Go to the ../views directory, then download the new layout file:
 
 ````
 $ cd ../views
-curl -C - -LOk  https://raw.githubusercontent.com/tomcam/AdminLTE-web2py/master/layout_adminlte.html
+curl -C - -LOk  https://raw.githubusercontent.com/facundomedica/AdminLTE-web2py/master/layout_adminlte.html
 ````
 
 ## Change owner and permissions of layout_adminlte.html
